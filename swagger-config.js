@@ -7,11 +7,6 @@ const options = {
       version: '1.0.0',
       description: "ASM là 1 app bán đồ ăn nhanh ( Bánh mì, Hamburger, Sandwich, Nước)",
     },
-    servers: [
-      {
-        url: 'http://0.0.0.0:10000',
-      },
-    ],
   },
   apis: ['./routes/*.js'], // Đường dẫn đến các file định nghĩa API
 };
