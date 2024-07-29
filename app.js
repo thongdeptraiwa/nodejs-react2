@@ -21,7 +21,14 @@ var loaiRouter = require('./routes/loai_routes');
 var san_phamRouter = require('./routes/san_pham_routes');
 //var gio_hangRouter = require('./routes/gio_hangRouter');
 
+// CORS
+var cors = require('cors')
+
 var app = express();
+
+// CORS
+app.use(cors())
+
 //swagger
 const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./swagger-config.js');
