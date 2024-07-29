@@ -24,7 +24,7 @@ var loai_models = require("../models/loai")
  *       401:
  *         description: chưa nhập ten_loai 
  */
-//add role 
+//add loai 
 //http://localhost:3000/loai/add
 router.post('/add', async function (req, res, next) {
     try {

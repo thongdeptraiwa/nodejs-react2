@@ -9,7 +9,7 @@ const options = {
     },
     servers: [
       {
-        url: 'http://192.168.111.151:3000',
+        url: 'http://0.0.0.0:3000',
       },
     ],
   },
@@ -19,4 +19,5 @@ const swaggerSpec = swaggerJSDoc(options);
 module.exports = swaggerSpec;
 
 //link
-//http://192.168.111.151:3000/api-docs/
+//http://0.0.0.0:3000/api-docs/
+//https://nodejs-react2.onrender.com/
